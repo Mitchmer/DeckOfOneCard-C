@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		99B0AEAB230C863100F3AE63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0AEAA230C863100F3AE63 /* AppDelegate.m */; };
-		99B0AEAE230C863100F3AE63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0AEAD230C863100F3AE63 /* ViewController.m */; };
 		99B0AEB1230C863100F3AE63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B0AEAF230C863100F3AE63 /* Main.storyboard */; };
 		99B0AEB3230C863200F3AE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B0AEB2230C863200F3AE63 /* Assets.xcassets */; };
 		99B0AEB6230C863200F3AE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B0AEB4230C863200F3AE63 /* LaunchScreen.storyboard */; };
 		99B0AEB9230C863200F3AE63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0AEB8230C863200F3AE63 /* main.m */; };
+		99B0AEC5230C8A7B00F3AE63 /* MMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0AEC4230C8A7B00F3AE63 /* MMCard.m */; };
+		99B0AEC8230C8FB700F3AE63 /* MMCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0AEC7230C8FB700F3AE63 /* MMCardController.m */; };
+		99B0AECC230CA80200F3AE63 /* MMCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B0AECB230CA80200F3AE63 /* MMCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99B0AEA6230C863100F3AE63 /* DeckOfOneCard-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DeckOfOneCard-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B0AEA9230C863100F3AE63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99B0AEAA230C863100F3AE63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		99B0AEAC230C863100F3AE63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		99B0AEAD230C863100F3AE63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		99B0AEB0230C863100F3AE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99B0AEB2230C863200F3AE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99B0AEB5230C863200F3AE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99B0AEB7230C863200F3AE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99B0AEB8230C863200F3AE63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99B0AEC3230C8A7B00F3AE63 /* MMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMCard.h; sourceTree = "<group>"; };
+		99B0AEC4230C8A7B00F3AE63 /* MMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCard.m; sourceTree = "<group>"; };
+		99B0AEC6230C8FB700F3AE63 /* MMCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMCardController.h; sourceTree = "<group>"; };
+		99B0AEC7230C8FB700F3AE63 /* MMCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCardController.m; sourceTree = "<group>"; };
+		99B0AECA230CA80100F3AE63 /* DeckOfOneCard-C-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeckOfOneCard-C-Bridging-Header.h"; sourceTree = "<group>"; };
+		99B0AECB230CA80200F3AE63 /* MMCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MMCardViewController.swift; path = "DeckOfOneCard-C/View Controller/MMCardViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +64,53 @@
 		99B0AEA8230C863100F3AE63 /* DeckOfOneCard-C */ = {
 			isa = PBXGroup;
 			children = (
+				99B0AEC9230CA7D800F3AE63 /* View COntrollers */,
+				99B0AEC2230C88D400F3AE63 /* Model Controllers */,
+				99B0AEC1230C88C700F3AE63 /* Models */,
+				99B0AEBF230C86AA00F3AE63 /* Resources */,
+				99B0AEAF230C863100F3AE63 /* Main.storyboard */,
+			);
+			path = "DeckOfOneCard-C";
+			sourceTree = "<group>";
+		};
+		99B0AEBF230C86AA00F3AE63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				99B0AEA9230C863100F3AE63 /* AppDelegate.h */,
 				99B0AEAA230C863100F3AE63 /* AppDelegate.m */,
-				99B0AEAC230C863100F3AE63 /* ViewController.h */,
-				99B0AEAD230C863100F3AE63 /* ViewController.m */,
-				99B0AEAF230C863100F3AE63 /* Main.storyboard */,
 				99B0AEB2230C863200F3AE63 /* Assets.xcassets */,
 				99B0AEB4230C863200F3AE63 /* LaunchScreen.storyboard */,
 				99B0AEB7230C863200F3AE63 /* Info.plist */,
 				99B0AEB8230C863200F3AE63 /* main.m */,
 			);
-			path = "DeckOfOneCard-C";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99B0AEC1230C88C700F3AE63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99B0AEC3230C8A7B00F3AE63 /* MMCard.h */,
+				99B0AEC4230C8A7B00F3AE63 /* MMCard.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99B0AEC2230C88D400F3AE63 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				99B0AEC6230C8FB700F3AE63 /* MMCardController.h */,
+				99B0AEC7230C8FB700F3AE63 /* MMCardController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		99B0AEC9230CA7D800F3AE63 /* View COntrollers */ = {
+			isa = PBXGroup;
+			children = (
+				99B0AECB230CA80200F3AE63 /* MMCardViewController.swift */,
+				99B0AECA230CA80100F3AE63 /* DeckOfOneCard-C-Bridging-Header.h */,
+			);
+			path = "View COntrollers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,11 +139,13 @@
 		99B0AE9E230C863100F3AE63 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MM;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Mitch Merrell";
 				TargetAttributes = {
 					99B0AEA5230C863100F3AE63 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -141,9 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B0AEAE230C863100F3AE63 /* ViewController.m in Sources */,
 				99B0AEB9230C863200F3AE63 /* main.m in Sources */,
+				99B0AECC230CA80200F3AE63 /* MMCardViewController.swift in Sources */,
+				99B0AEC8230C8FB700F3AE63 /* MMCardController.m in Sources */,
 				99B0AEAB230C863100F3AE63 /* AppDelegate.m in Sources */,
+				99B0AEC5230C8A7B00F3AE63 /* MMCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,14 +331,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "DeckOfOneCard-C/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneCard-C/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mitchmerrell.DeckOfOneCard-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneCard-C/View COntrollers/DeckOfOneCard-C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -301,14 +351,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "DeckOfOneCard-C/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneCard-C/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mitchmerrell.DeckOfOneCard-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneCard-C/View COntrollers/DeckOfOneCard-C-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
